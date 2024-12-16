@@ -1,0 +1,310 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      padding: 15px 40px;
+      position: relative;
+    }
+
+    .navbar .logo img {
+      width: 100px;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      position: relative;
+    }
+
+    .nav-links li {
+      color: white;
+      position: relative;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    
+    .dropdown {
+      display: none;
+      position: absolute;
+      background-color: black;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+      padding: 10px 0px;
+      border-radius: 5px;
+      list-style: none;
+      width: 150px;
+      z-index: 10;
+    }
+    .nav-links li:hover .dropdown {
+      display: block;}
+
+    .dropdown li {
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .dropdown li:hover {
+      background-color: black;
+    }
+
+    
+    .hero-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 80px);
+      background: linear-gradient(135deg, #e7008a, #6a00f4);
+      color: white;
+      text-align: left;
+      padding: 0 50px;
+    }
+
+    .content {
+      max-width: 500px;
+    }
+
+    .content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .cta-button {
+      background-color: white;
+      color: black;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #ccc;
+    }
+
+    .mockup img {
+      max-width: 180px;
+      height: auto;
+      margin-right: 50px;
+      max-height: 2000px;
+    }
+
+    
+    .why-spotify {
+      padding: 50px 20px;
+      background-color: white;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .feature {
+      background: linear-gradient(white);
+      color: black;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      
+    }
+
+    .feature .icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    .cta {
+      background: linear-gradient(to bottom, #8e44ad, #3498db);
+      color: white;
+      padding: 50px 20px;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #b3b3b3;
+  }
+  
+.faq-section {
+    max-width: 1400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-btn {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-btn:hover {
+    background-color: #ddd;
+}
+
+.faq-content {
+    display: none;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-btn.active + .faq-content {
+    display: block;
+}
+ 
+  .footer-Gajanan {
+      padding: 40px 90px;
+      background-color: #000;
+  }
+  
+  .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+  
+  }
+  
+  .footer-logo_Chapkanade img {
+      width: 150px;
+      margin-bottom: 10px;
+      margin-top: -20px;
+  }
+  
+  .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 70px;
+  }
+  
+  .footer-column h4 {
+      color: #fff;
+      margin-bottom: 15px;
+      font-size: 16px;
+  }
+  
+  .footer-column ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .footer-column ul li {
+      margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+      text-decoration: none;
+      color: #b3b3b3;
+      font-size: 14px;
+      transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover {
+      color: #1db954;
+  }
+  
+  .footer-bottom-G {
+      margin-top: 40px;
+      text-align: center;
+  }
+
+  .Gajanan-icons {
+      margin-bottom: 20px;
+  }
+  
+  .Gajanan-icons a img {
+      width: 24px;
+      margin: 0 10px;
+  }
+  
+  .footer-legal {
+      font-size: 12px;
+      line-height: 1.5;
+  }
+  
+  .footer-legal a {
+      text-decoration: none;
+      color: #b3b3b3;
+      margin: 0 5px;
+  }
+  
+  .footer-legal a:hover {
+      color: #1db954;
+  }
+  .Gajanan-icons{
+      object-position: 100px 1000px;
+  }
+  
